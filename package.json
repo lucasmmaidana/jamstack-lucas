@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "develop": "gatsby develop"
   },
   "dependencies": {
     "@reach/dialog": "^0.11.2",
@@ -17,8 +18,5 @@
     "react-dom": "^16.13.1",
     "react-netlify-identity": "^0.2.5",
     "react-netlify-identity-widget": "^0.2.7"
-  },
-  "scripts": {
-    "develop": "gatsby develop"
   }
 }
